@@ -1,4 +1,4 @@
-HOST_NAME=minima
+HOST_NAME=sethdeke
 
 source ~/.nvm/nvm.sh
 nvm use stable
@@ -21,10 +21,6 @@ txtgrn='\e[0;32m' # Green
 bldgrn='\e[1;32m' # Bold Green
 bldpur='\e[1;35m' # Bold Purple
 txtrst='\e[0m'    # Text Reset
-
-emojis=("👾" "🌐" "🎲" "🌍" "🐉" "🌵")
-
-EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
 print_before_the_prompt () {
     dir=$PWD
